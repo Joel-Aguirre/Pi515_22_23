@@ -1,6 +1,6 @@
 # Create a try/except that will run successfully
 try:
-  # Add something that will run successfully
+  x = 1+1# Add something that will run successfully
   
 except:
   print("try/except 1 produced an error")
@@ -9,7 +9,7 @@ except:
   
   # Create a try/except that will fail to run
 try:
-  # Add something that will not run successfully
+    y = 1/0# Add something that will not run successfully
   
 except:
   print("try/except 2 produced an error")
